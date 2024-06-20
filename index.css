@@ -1,0 +1,45 @@
+/* أنماط الجسم والألوان */
+body {
+    background-color: #ffffff; /* خلفية بيضاء */
+    color: #000000; /* لون الخط الأسود */
+}
+
+/* أنماط النافبار */
+.navbar {
+    background-color: #ffffff; /* خلفية بيضاء */
+    color: #000000; /* لون الخط الأسود */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000; /* لون الخط الأسود */
+}
+
+.navbar-toggler-icon {
+    color: #000000; /* لون أيقونة التبديل الأسود */
+}
+
+.navbar-toggler {
+    border-color: #000000; /* لون حدود أيقونة التبديل الأسود */
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #000000; /* لون خلفية أيقونة التبديل عند التحويم/التركيز */
+    color: #ffffff; /* لون النص عند التحويم/التركيز */
+}
+
+/* أنماط الزر الرئيسي */
+.btn-primary {
+    background-color: #000000; /* خلفية الزر الرئيسي سوداء */
+    border-color: #000000; /* لون حدود الزر الرئيسي */
+    color: #00aaff; /* لون النص الأزرق */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ff0000; /* لون خلفية الزر الرئيسي عند التحويم/التركيز (أحمر) */
+    border-color: #ff0000; /* لون حدود الزر الرئيسي عند التحويم/التركيز (أحمر) */
+    color: #ffffff; /* لون النص عند التحويم/التركيز (أبيض) */
+}
